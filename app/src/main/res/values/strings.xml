@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Staff Register</string>
+
+    <string name="fragment_staff_nfc">直接感應使用者ID卡\n並輸入員工編號</string>
+    <string name="scan_nfc">直接感應使用者ID卡</string>
+    <string name="input_staff_id">請輸入員工編號</string>
+    <string name="nfc_id">ID卡號</string>
+    <string name="staff_id">員工編號</string>
+
+    <string name="display_DialogTitle">警告</string>
+    <string name="display_DialogPositiveButton">確定</string>
+
+    <string name="location">Location</string>
+    <string name="server_ip">伺服器IP</string>
+    <string name="server_port">Port</string>
+
+
+</resources>

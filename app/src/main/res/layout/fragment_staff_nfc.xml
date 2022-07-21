@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_staff_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/ImageButton_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/btn_setting" />
+
+    <TextView
+        android:id="@+id/textView_version_name"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/fragment_staff_nfc_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_scan_nfc" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fragment_staff_nfc_Result"
+        style="@style/AppTheme.PrimaryText"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+
+        android:text="@string/fragment_staff_nfc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_staff_nfc_scan" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fragment_tv_nfc_id"
+        style="@style/AppTheme.SecondaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/nfc_id"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_staff_nfc_Result" />
+
+    <EditText
+        android:id="@+id/fragment_et_nfc_id"
+        android:layout_width="216dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="56dp"
+        android:focusable="false"
+        android:hint="@string/scan_nfc"
+        android:singleLine="true"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fragment_tv_nfc_id"
+        app:layout_constraintStart_toEndOf="@+id/fragment_tv_nfc_id" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fragment_tv_staff_id"
+        style="@style/AppTheme.SecondaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/staff_id"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="@+id/fragment_tv_nfc_id"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_tv_nfc_id" />
+
+    <EditText
+        android:id="@+id/fragment_et_staff_id"
+        android:layout_width="216dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:hint="@string/input_staff_id"
+        android:singleLine="true"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fragment_tv_staff_id"
+        app:layout_constraintStart_toStartOf="@+id/fragment_et_nfc_id"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_et_nfc_id" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/fragment_staff_nfc_post"
+        style="@style/AppTheme.Button"
+        android:layout_width="329dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/display_DialogPositiveButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

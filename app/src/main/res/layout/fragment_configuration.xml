@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textView_server_location"
+        style="@style/AppTheme.PrimaryText"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:text="@string/location"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_server_location"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:digits="0123456789.:"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:singleLine="true"
+        android:textColor="@color/primary_text"
+        android:textSize="22sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_server_location"
+        app:layout_constraintStart_toEndOf="@+id/textView_server_location" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textView_server_ip"
+        style="@style/AppTheme.PrimaryText"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:text="@string/server_ip"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_server_location" />
+
+    <EditText
+        android:id="@+id/editText_server_ip"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:digits="0123456789.:"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/primary_text"
+        android:textSize="22sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_server_ip"
+        app:layout_constraintStart_toEndOf="@+id/textView_server_ip" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textView_server_port"
+        style="@style/AppTheme.PrimaryText"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:text="@string/server_port"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView_server_ip"
+        app:layout_constraintTop_toBottomOf="@+id/textView_server_ip" />
+
+    <EditText
+        android:id="@+id/editText_server_port"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:digits="0123456789.:"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/primary_text"
+        android:textSize="22sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_server_port"
+        app:layout_constraintStart_toStartOf="@+id/editText_server_ip" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_done"
+        style="@style/AppTheme.Button"
+        android:layout_width="237dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_server_port" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_done" />
+</android.support.constraint.ConstraintLayout>
+

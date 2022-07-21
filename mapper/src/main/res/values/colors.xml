@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#9601e8</color>
+    <color name="primary_dark">#673AB7</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accent">#7C4DFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#FFFFFF</color>
+    <color name="divider">#929292</color>
+    <color name="button_background">#019ae8</color>
+    <color name="button_text">#FFFFFF</color>
+
+    <color name="title_background">#5240d2</color>
+    <color name="block_background">#FFFFFF</color>
+    <color name="patient_background">#FFFFFF</color>
+
+    <color name="underline">#5240d2</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accent">#7C4DFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="hint">#BDBDBD</color>
+    <color name="button_background">#019AE8</color>
+    <color name="frame_button_border">#019AE8</color>
+    <color name="frame_button_text">#019AE8</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="progress_bar">#ffdd03</color>
+    <color name="White">#FFFFFF</color>
+    <color name="list_status_bar_background">#EAEAEA</color>
+    <color name="list_normal_text">#505050</color>
+    <color name="pass_text_color">#11A03F</color>
+    <color name="fail_text_color">#F95C00</color>
+    <color name="error_background_color">#F95C00</color>
+    <color name="network_error_background_color">#ffdd03</color>
+    <color name="uploaded_background">#D5EFFF</color>
+    <color name="radio_checked">#487ce5</color>
+    <color name="radio_unchecked">#487ce5</color>
+
+</resources>

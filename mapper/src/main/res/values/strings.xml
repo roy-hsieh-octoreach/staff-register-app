@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">血糖POCT</string>
+    <string name="login_subtitle">員工登入</string>
+    <string name="mapper_subtitle">血糖設備配對</string>
+
+    <string name="display_PatientLabel">病人</string>
+    <string name="display_BedLabel">床號</string>
+    <string name="display_DeviceLabel">血糖機</string>
+    <string name="display_MonitorLabel">監視器</string>
+    <string name="display_MedicineLabel">藥品</string>
+    <string name="display_OrderLabel">醫囑</string>
+    <string name="display_SpecimenLabel">檢體</string>
+    <string name="display_KryonID">KRYON Id</string>
+    <string name="display_CheckBox">保留</string>
+    <string name="display_Upload">上傳資料</string>
+
+    <string name="sample_ErrorMessage">使用者ID錯誤\n請重新掃描使用者ID</string>
+    <string name="sample_StaffID">555123456789</string>
+    <string name="sample_StaffName">張志琳醫師</string>
+    <string name="sample_PatientID">123456789555</string>
+    <string name="sample_PatientName">歐陽娜娜</string>
+    <string name="sample_BedName">SICU01</string>
+    <string name="sample_DeviceName">7600P4697414</string>
+    <string name="sample_MonitorName">SEL5000</string>
+    <string name="sample_MedicineName">Amiodarone</string>
+    <string name="sample_OrderName">xxxxxxxxxxxxxxx</string>
+    <string name="sample_KryonID">K5551212133</string>
+
+    <string name="btn_upload_mapper">上傳資料</string>
+
+    <string name="scanner_prompt">請將條碼對準掃描線</string>
+    <string name="upload_data_success">資料已成功上傳</string>
+    <string name="upload_data_fail_miss_data">資料不齊全，無法上傳</string>
+    <string name="download_and_install">下載並安裝</string>
+    <string name="close_application">關閉程式</string>
+    <string name="staff_barcode_error">登入條碼錯誤</string>
+    <string name="patient_barcode_error">病人條碼錯誤</string>
+    <string name="glucose_barcode_error">血糖機條碼錯誤</string>
+    <string name="rescan">重新掃描</string>
+    <string name="i_am_clear">我知道了</string>
+
+    <string name="message_check_permission_error">因無法取得手機權限，程式將無法執行</string>
+    <string name="message_check_release">檢查更新 &#8230;</string>
+    <string name="message_download_release">下載新版程式 &#8230;</string>
+    <string name="message_release_ready">伺服器已提供新版本</string>
+    <string name="message_check_release_error" formatted="false">檢查更新失敗，請確認手機網路連線是否正常。\n%1$s</string>
+    <string name="message_check_staff_information">確認員工資訊 &#8230;</string>
+    <string name="message_check_staff_information_error" formatted="false">無法取得員工資訊，請檢查手機網路連線及員編是否正常。\n%1$s</string>
+    <string name="message_upload_mapper_result">資料上傳中 &#8230;</string>
+    <string name="message_upload_mapper_result_error" formatted="false">資料上傳失敗，請確認手機網路連線是否正常。\n%1$s</string>
+    <string name="message_load_patient_data">讀取病人資料 &#8230;</string>
+</resources>

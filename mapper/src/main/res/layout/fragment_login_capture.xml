@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.bingoogolapple.qrcode.zbar.ZBarView
+        android:id="@+id/fragment_login_capture_zbarview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_barCodeTipText="@string/scanner_prompt"
+        app:qrcv_barcodeRectHeight="120dp"
+        app:qrcv_borderColor="@android:color/transparent"
+        app:qrcv_borderSize="1dp"
+        app:qrcv_cornerColor="@android:color/white"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="5dp"
+        app:qrcv_isBarcode="true"
+        app:qrcv_isOnlyDecodeScanBoxArea="true"
+        app:qrcv_isShowDefaultGridScanLineDrawable="true"
+        app:qrcv_isShowDefaultScanLineDrawable="true"
+        app:qrcv_isShowLocationPoint="false"
+        app:qrcv_isShowTipBackground="true"
+        app:qrcv_isShowTipTextAsSingleLine="false"
+        app:qrcv_isTipTextBelowRect="true"
+        app:qrcv_maskColor="#33FFFFFF"
+        app:qrcv_rectWidth="300dp"
+        app:qrcv_scanLineColor="@color/primary_dark"
+        app:qrcv_tipTextSize="16sp"
+        app:qrcv_toolbarHeight="56dp"
+        app:qrcv_topOffset="80dp"
+        app:qrcv_verticalBias="-1" />
+
+</RelativeLayout>
